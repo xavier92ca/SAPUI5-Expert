@@ -1,0 +1,9 @@
+<mvc:View controllerName="logaligroup.SAPUI5.controller.App"
+    xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:l="sap.ui.layout">
+  <!--  <Text text="Hello World from XML in Fiori"></Text>-->
+    <Button text="{i18n>showHelloButtonText}" press=".onShowHello"></Button>
+    <Input value="{/recipient/name}"
+            description="Hello {/recipient/name}"
+            valueLiveUpdate="true"
+            width="60%"></Input>
+</mvc:View>
