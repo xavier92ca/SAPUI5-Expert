@@ -1,16 +1,18 @@
 sap.ui.define([
     "sap/ui/core/mvc/Controller",
+    "sap/m//MessageToast",
 ],
     /**
      * 
      * @param {typeof sap.ui.core.mvc.Controller} Controller
+     * @param {typeof sap.m.MessageToast} MessageToast
      */
-    function (Controller) {
+    function (Controller, MessageToast) {
 
         "use strict";
 
 
-        return Controller.extend("logaligroup.SAPUI5.controller.App", {
+        return Controller.extend("logaligroup.SAPUI5.controller.HelloPanel", {
 
             onInit: function () {
 
